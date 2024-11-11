@@ -12,6 +12,8 @@
 
 body{
     width: 100%;
+    overflow-x: hidden;
+    
 }
 
 header{
@@ -21,6 +23,7 @@ header{
     width: 100vw;
     background-repeat: no-repeat;
     color: white;
+    overflow-x: hidden;
 }
 
 nav{
@@ -28,6 +31,15 @@ nav{
     justify-content: space-between;
     padding: 0 50px;
     align-items: center;
+}
+
+nav .logo{
+    width: 150px;
+    height: 150px;
+}
+
+nav .logo img{
+    width: 100%;
 }
 
 nav ul{
@@ -46,7 +58,7 @@ nav ul li{
 
 header .middle{
     margin-left: 200px;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 header .middle h4{
@@ -56,21 +68,21 @@ header .middle h4{
 }
 
 header .middle h1{
-    font-size: 130px;
+    font-size: 100px;
     font-family: Garamond;
     font-weight: 700;
     line-height: 95px;
 }
 
 header .middle h3{
-    font-size: 50px;
+    font-size: 40px;
     font-family: Garamond;
     font-weight: 700;
     word-spacing: 2rem;
 }
 
 header .middle p{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Montserrat;
     font-weight: 300;
 }
@@ -93,4 +105,164 @@ header .middle p{
     border-radius: 7px;
     margin-top: 50px;
     width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.icon-container h6{
+    font-size: 20px;
+    font-weight: 500;
+    font-family:  Montserrat;
+}
+
+.section-one{
+    /* height: 100vh; */
+    /* padding: 30px auto; */
+}
+
+.section-one .j{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Montserrat;
+    margin-top: 70px;
+}
+
+.container{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first{
+    display: flex;
+   /* align-items: center; */
+   
+   margin: 0 70px;
+   /* width: 70%; */
+}
+
+.left{
+    /* flex: 1; */
+    margin-right: 90px;
+    
+}
+.right{
+    /* flex: 1; */
+}
+
+.right .imge{
+    width: 600px;
+    height: 600px;
+}
+
+.right .imge img{
+    width: 100%;
+}
+
+.left h1{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.left  p{
+    font-size: 20px;
+    width: 400px;
+    
+}
+
+.left button{
+    background-color: #E0B973;
+    margin-top: 30px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    color: white;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+
+.section-second h1{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  
+}
+.section-second p{
+  font-size: 20px;
+  text-align: center;
+}
+
+.dir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dir .m1{
+    margin-right: 10px;
+}
+
+footer{
+    height: 40vh;
+    background-color: #14274A;
+    position: relative;
+}
+
+/* footer .box{
+    height: 200px;
+    width: 200px;
+    background-color: #14274A;
+    transform: rotate(45deg);
+
+    
+} */
+
+/* .boxx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+} */
+ footer .box{
+    height: 100px;
+    width: 100px;
+    background-color: #14274A;
+    position: absolute;
+    left: 46.5%;
+    transform: rotate(45deg);
+    bottom: 220px;
+
+    
 }
